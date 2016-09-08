@@ -1,0 +1,13 @@
+.DS_Store
+/rnnlm/
+/build/
+/__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+dist/
+MANIFEST
+test_model
+test_model.output.txt
+/rnnlm.py

@@ -1,0 +1,5 @@
+include README.rst
+include setup.py
+include rnnlm.py
+include rnnlm-python/rnnlm_wrap.cxx
+recursive-include rnnlm *
