@@ -32,7 +32,7 @@ if [ ! -e "$basedir/rnnlm" ]; then
     )
 fi
 
-if [ ! -e "$basedir/rnnlm.py" ]; then
+if [ ! -L "$basedir/rnnlm.py" ]; then
     ln -s $basedir/rnnlm-python/rnnlm.py $basedir/rnnlm.py
 fi
 
