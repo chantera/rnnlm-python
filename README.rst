@@ -2,7 +2,7 @@ RNNLM Toolkit wrapper for Python
 ==========================
 
 
-rnnlm-python is a python wrapper module for RNNLM Toolkit.
+rnnlm-python is a python wrapper module for RNNLM Toolkit.__
 RNNLM Toolkit is developed by Tomas Mikolov.
 
 Detailed information of RNNLM Toolkit can be found at
@@ -11,24 +11,18 @@ http://rnnlm.org/
 Install rnnlm-python
 --------------------
 
-```sh
-% pip install rnnlm-python
-```
+    % pip install rnnlm-python
 
 Install rnnlm-python (without pip)
 --------------------
 
-```sh
-% git clone https://github.com/chantera/rnnlm-python
-% cd rnnlm-python
-% make
-```
+    % git clone https://github.com/chantera/rnnlm-python  
+    % cd rnnlm-python  
+    % make
 
 If you want to install, run
 
-```sh
-% sudo make install
-```
+    % sudo make install
 
 How to use
 --------------------
