@@ -11,18 +11,24 @@ http://rnnlm.org/
 Install rnnlm-python
 --------------------
 
-    % pip install rnnlm-python
+```sh
+% pip install rnnlm-python
+```
 
 Install rnnlm-python (without pip)
 --------------------
 
-    % git clone https://github.com/chantera/rnnlm-python
-    % cd rnnlm-python
-    % make
+```sh
+% git clone https://github.com/chantera/rnnlm-python
+% cd rnnlm-python
+% make
+```
 
 If you want to install, run
 
-    % sudo make install
+```sh
+% sudo make install
+```
 
 How to use
 --------------------
