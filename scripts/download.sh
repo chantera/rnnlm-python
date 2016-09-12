@@ -27,7 +27,9 @@ if [ ! -e "$basedir/rnnlm" ]; then
         wget_or_curl https://f25ea9ccb7d3346ce6891573d543960492b92c30.googledrive.com/host/0ByxdPXuxLPS5RFM5dVNvWVhTd0U/rnnlm-0.4b.tgz $basedir/rnnlm-0.4b.tgz
         tar -xf $basedir/rnnlm-0.4b.tgz
         mv $basedir/rnnlm-0.4b $basedir/rnnlm
-        echo -e '\n#ifndef _GNU_SOURCE\ndouble exp10(double x)\n{\n    return pow((double) 10, x);\n}\n#endif' >> $basedir/rnnlm/rnnlmlib.h
+        rm $basedir/rnnlm/rnnlmlib.h $basedir/rnnlm/rnnlmlib.cpp
+        ln -s $basedir/rnnlm-python/rnnlmlib.h $basedir/rnnlm/rnnlmlib.h
+        ln -s $basedir/rnnlm-python/rnnlmlib.cpp $basedir/rnnlm/rnnlmlib.cpp
         rm $basedir/rnnlm-0.4b.tgz
     )
 fi
