@@ -2179,7 +2179,7 @@ double CRnnLME::getProb(std::vector<std::string> words)
         }
     }
 
-    fclose(flog);
+    // fclose(flog);
 
     return logp;
 }
